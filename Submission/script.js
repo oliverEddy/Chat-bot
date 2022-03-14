@@ -13,12 +13,6 @@ const yesReplys = ["yes", "y", "yah", "yeah"];
 const noReplys = ["no", "n", "nah"];
 
 
-const getName = (msg) => {
-    if (startName === undefined) {
-        startName = msg;
-    }
-  return { startName};
-  };
 
 
 const getBotReply = (msg) => {
