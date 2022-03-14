@@ -100,5 +100,28 @@ describe("getBotReply", () => {
     expect(botReply3).toEqual(expectedReply3);
     expect(botReply4).toEqual(expectedReply4);
 });
+  it("should reply correctly when follwing path to One Piece", () => {
+    const botReply1 = getBotReply("quin");
+    const expectedReply1 = 
+    "Hi there quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?";
+
+    const botReply2 = getBotReply("no");
+    const expectedReply2 = 
+    "How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?"
+
+    const botReply3 = getBotReply("yes");
+    const expectedReply3 = 
+    "That's just fine, there are plenty of quality shows without a mature rating. Would you still watch a show if it was 1000 plus episodes?"
+    
+    const botReply4 = getBotReply("yes");
+    const expectedReply4 = 
+    "Quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)"
+    
+    expect(botReply1).toEqual(expectedReply1);
+    expect(botReply2).toEqual(expectedReply2);
+    expect(botReply3).toEqual(expectedReply3);
+    expect(botReply4).toEqual(expectedReply4);
+    
+  });
 });
 

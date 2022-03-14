@@ -55,6 +55,8 @@ const getBotReply = (msg) => {
     if(path=== 2) {
       if (level === 2){
         if(yesReplys.includes(userInput)) {
+          level = 4;
+          path = 2;
           return "That's just fine, there are plenty of quality shows without a mature rating. Would you still watch a show if it was 1000 plus episodes?"
         }
         if(noReplys.includes(userInput)){
@@ -70,6 +72,13 @@ const getBotReply = (msg) => {
         return "Poor Light Yagami, seeing as you didn't enjoy death note so much, I'm going to suggest something that sets a completely different pace, that time I was reincarnated as a slime"
       }
     }
+    if(level === 4)
+      if(yesReplys.includes(userInput)){
+        return "Quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)"
+      } 
+      if(noReplys.includes(userInput)){
+        return "Okay, a shorter anime it is, despite only being 22 episodes Jobless reincarnation is one of my all-time favourites an absolute gem"
+      }
 }
   export { getBotReply };
  
