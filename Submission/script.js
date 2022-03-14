@@ -30,6 +30,7 @@ const getBotReply = (msg) => {
     path = 0
     return`Hi there ${userName}, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?`;
   }  
+  if(level === 1){
   if (yesReplys.includes(userInput)){
     level = 2
     path = 1
@@ -38,10 +39,12 @@ const getBotReply = (msg) => {
     level = 2
     path = 2
     return 'How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?'
-  }
+  }}
   if (path === 1) {
     if (level === 2) {
       if (yesReplys.includes(userInput)) {
+        level = 3 
+        path = 1 
         return "Fantastic, I enjoyed Death note, did you enjoy death-note as well?";
       }
       if (noReplys.includes(userInput)) {
@@ -49,6 +52,16 @@ const getBotReply = (msg) => {
       }
     }
   }
+    if(path=== 2) {
+      if (level === 2){
+        if(yesReplys.includes(userInput)) {
+          return "That's just fine, there are plenty of quality shows without a mature rating. Would you still watch a show if it was 1000 plus episodes?"
+        }
+        if(noReplys.includes(userInput)){
+          return "No? fantastic! I recommend the masterpiece Attack on Titan, main character Eren Yeager has lived inside the walls his entire life, one fateful day everything changed."
+        }
+      }
+    }
 }
   export { getBotReply };
  
