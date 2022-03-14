@@ -21,6 +21,18 @@ Input: Quin
 Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
 Input: Yes
 Output: Mmm yes, clearly you are very cultured Quin. Have you seen Death note?
+
+Start: Welcome to the Chatbot. What is your name?
+Input: Quin 
+Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Input: No 
+Output: How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?
+
+Start: Welcome to the Chatbot. What is your name??
+Input: Quin
+Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Input: Yes
+Output: Mmm yes, clearly you are very cultured Quin. Have you seen Death note?
 Input: No 
 Output: I would highly recommend Death note. An extremely worth while watch, the protagonist light yagami finds a mysterious note pad called the Death note while at school one day.
 

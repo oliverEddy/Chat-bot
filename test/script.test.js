@@ -20,7 +20,7 @@ describe("getBotReply", () => {
     expect(botReply1).toEqual(expectedReply1);
   });
 
-  it("should reply correctly when supplised YES answer to, Have you watched anime beofre", () => {
+  it("should reply correctly when supplised YES answer to, Have you watched anime before", () => {
     const botReply1 = getBotReply("Quin");
     const expectedReply1 = 
     "Hi there quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?";
@@ -30,6 +30,20 @@ describe("getBotReply", () => {
     const botReply2 = getBotReply("yes");
     const expectedReply2 = 
     "Mmm yes, clearly you are very cultured quin. Have you seen Death note?"
+
+    // Uncomment the following line and update your expectation
+    expect(botReply2).toEqual(expectedReply2);
+  });
+  it("should reply correctly when supplised NO answer to, Have you watched anime before", () => {
+    const botReply1 = getBotReply("Quin");
+    const expectedReply1 = 
+    "Hi there quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?";
+
+    // Uncomment the following line and update your expectation
+    expect(botReply1).toEqual(expectedReply1);
+    const botReply2 = getBotReply("no");
+    const expectedReply2 = 
+    "How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?"
 
     // Uncomment the following line and update your expectation
     expect(botReply2).toEqual(expectedReply2);

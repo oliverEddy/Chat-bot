@@ -33,6 +33,10 @@ const getBotReply = (msg) => {
     level = 2
     path = 1;
     return `Mmm yes, clearly you are very cultured ${userName}. Have you seen Death note?`;
+  } if(noReplys.includes(userInput)){
+    level = 2
+    path = 2
+    return 'How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?'
   }
   };
  
