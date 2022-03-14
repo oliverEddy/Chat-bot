@@ -16,17 +16,7 @@ Output: the next question, or answer to the question
 ## Test scenarios
 Path for anime Death note
 
-Start: Welcome to the Chatbot. What is your name??
-Input: Quin
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
-Input: Yes
-Output: Mmm yes, clearly you are very cultured Quin. Have you seen Death note?
-
-Start: Welcome to the Chatbot. What is your name?
-Input: Quin 
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
-Input: No 
-Output: How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?
+Path to Death Note
 
 Start: Welcome to the Chatbot. What is your name??
 Input: Quin
@@ -88,6 +78,7 @@ Output: Quin you are extremely brave, one-piece stands as the longest anime at 1
 
 
 Path for anime Jobless Reincarnation 
+
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
 Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?

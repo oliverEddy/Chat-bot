@@ -6,7 +6,7 @@
  */
 let userName;
 
-let level = 1;
+let level = 0;
 let path = 0;
 
 const yesReplys = ["yes", "y", "yah", "yeah"];
@@ -23,10 +23,11 @@ const getBotReply = (msg) => {
     return`Hi there ${userName}, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?`;
 }
 
-  if (level === 1){
+  if (level === 0){
     if (userName === undefined)
     userName = userInput
-    level = 2
+    level = 1
+    path = 0
     return`Hi there ${userName}, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?`;
   }  
   if (yesReplys.includes(userInput)){

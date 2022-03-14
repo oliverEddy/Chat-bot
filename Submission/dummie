@@ -10,3 +10,17 @@
       //Output: "Does the car make a clicking noise?"
       return "Does the car make a clicking noise?";
     }
+
+
+
+
+
+    if(path === 1){
+    if(level === 2) {
+    if(yesReplys.includes(userInput)){
+      path = 1
+      level = 3
+      return "Fantastic, I enjoyed Death note, did you enjoy death-note as well?"
+    }
+  }
+};
