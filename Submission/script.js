@@ -62,6 +62,14 @@ const getBotReply = (msg) => {
         }
       }
     }
+    if(level === 3){
+      if(yesReplys.includes(userInput)){
+        return "Excellent, I suggest you watch Code Geass. The main character Lelouch vi Britannia battles against the odds as he fights to regain connote of his home country."
+      }
+      if(noReplys.includes(userInput)){
+        return "Poor Light Yagami, seeing as you didn't enjoy death note so much, I'm going to suggest something that sets a completely different pace, that time I was reincarnated as a slime"
+      }
+    }
 }
   export { getBotReply };
  
