@@ -7,6 +7,7 @@ on what anime they should watch. The user will receive a suggestion based on the
 Have you watched anime before? Did you enjoy this show? Would you watch something that is R16?
 Use the flow chart in planning to build the system. The program needs to ask a question, and the user will answer the question.
 The program then needs to ask another question, based on the users previous answer.
+
 ## Inputs, processes and outputs
 Inputs: userInput
 Processes: determine the correct answer based on the usersInput, and previous inputs
@@ -22,6 +23,10 @@ Input: Yes
 Output: Mmm yes, clearly you are very cultured Quin. Have you seen Death note?
 Input: No 
 Output: I would highly recommend Death note. An extremely worth while watch, the protagonist light yagami finds a mysterious note pad called the Death note while at school one day.
+
+1. Reply with user name and ask first question
+2. let user reply with Yes respond with "Mmm yes, clearly you are very cultured Quin. Have you seen Death note?"
+3. let user reply with No repond with "I would highly recommend Death note. An extremely worth while watch, the protagonist light yagami finds a mysterious note pad called the Death note while at school one day."
 
 Path for anime That time I was reincarnated as a slime
 
