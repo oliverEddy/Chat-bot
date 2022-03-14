@@ -31,18 +31,25 @@ const getBotReply = (msg) => {
   }  
   if (yesReplys.includes(userInput)){
     level = 2
-    path = 1;
+    path = 1
     return `Mmm yes, clearly you are very cultured ${userName}. Have you seen Death note?`;
   } if(noReplys.includes(userInput)){
     level = 2
     path = 2
     return 'How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?'
   }
-  };
- 
-  
-
+  if (path === 1) {
+    if (level === 2) {
+      if (yesReplys.includes(userInput)) {
+        return "Fantastic, I enjoyed Death note, did you enjoy death-note as well?";
+      }
+      if (noReplys.includes(userInput)) {
+        return "I would highly recommend Death note. An extremely worth while watch, the protagonist light yagami finds a mysterious note pad called the Death note while at school one day.";
+      }
+    }
+  }
+}
   export { getBotReply };
  
-
+ 
 
