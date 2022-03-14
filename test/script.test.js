@@ -123,5 +123,28 @@ describe("getBotReply", () => {
     expect(botReply4).toEqual(expectedReply4);
     
   });
+  it("should reply correctly when follwing path to Jobless Reincarnation", () => {
+    const botReply1 = getBotReply("quin");
+    const expectedReply1 = 
+    "Hi there quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?";
+
+    const botReply2 = getBotReply("no");
+    const expectedReply2 = 
+    "How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?"
+
+    const botReply3 = getBotReply("yes");
+    const expectedReply3 = 
+    "That's just fine, there are plenty of quality shows without a mature rating. Would you still watch a show if it was 1000 plus episodes?"
+    
+    const botReply4 = getBotReply("no");
+    const expectedReply4 = 
+    "Okay, a shorter anime it is, despite only being 22 episodes Jobless reincarnation is one of my all-time favourites an absolute gem"
+    
+    expect(botReply1).toEqual(expectedReply1);
+    expect(botReply2).toEqual(expectedReply2);
+    expect(botReply3).toEqual(expectedReply3);
+    expect(botReply4).toEqual(expectedReply4);
+    
+  });
 });
 
