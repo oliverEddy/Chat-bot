@@ -22,7 +22,12 @@ const getBotReply = (msg) => {
     level = 1 
     return`Hi there ${userName}, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?`;
 }
-
+  if (userInput === "help"){
+    return `Help options: <br> Type 'reset' to restart the conversation.<br> Type 'favs' and Luffy will tell you his top 3 animes!`
+  }
+  if(userInput === "favs"){
+    return `So, you want to know my favourite animes huh? I suppose I could tell you.<br> In Number 1, the show I star in! One piece, <br> In Number 2, the gruesome Attack on Titan, <br> And in Number 3! the peaceful Jobless Reincarnation`
+  }
   if (level === 0){
     if (userName === undefined)
     userName = userInput
@@ -72,13 +77,15 @@ const getBotReply = (msg) => {
         return "Poor Light Yagami, seeing as you didn't enjoy death note so much, I'm going to suggest something that sets a completely different pace, that time I was reincarnated as a slime"
       }
     }
-    if(level === 4)
+    if(level === 4) {
       if(yesReplys.includes(userInput)){
-        return "Quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)"
+        return `${userName} you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)`
       } 
       if(noReplys.includes(userInput)){
         return "Okay, a shorter anime it is, despite only being 22 episodes Jobless reincarnation is one of my all-time favourites an absolute gem"
-      }
+      }}
+      
+      return `Please enter yes or no, <br> Type 'help' for more options`;
 }
   export { getBotReply };
  

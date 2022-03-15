@@ -115,7 +115,7 @@ describe("getBotReply", () => {
     
     const botReply4 = getBotReply("yes");
     const expectedReply4 = 
-    "Quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)"
+    "quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)"
     
     expect(botReply1).toEqual(expectedReply1);
     expect(botReply2).toEqual(expectedReply2);
@@ -145,6 +145,22 @@ describe("getBotReply", () => {
     expect(botReply3).toEqual(expectedReply3);
     expect(botReply4).toEqual(expectedReply4);
     
+  });
+  it("should reply with Name and first question", () => {
+    const botReply1 = getBotReply("help");
+    const expectedReply1 = 
+    `Help options: <br> Type 'reset' to restart the conversation.<br> Type 'favs' and Luffy will tell you his top 3 animes!`    ;
+
+    
+    expect(botReply1).toEqual(expectedReply1);
+  });
+  it("should reply with Name and first question", () => {
+    const botReply1 = getBotReply("favs");
+    const expectedReply1 = 
+    `So, you want to know my favourite animes huh? I suppose I could tell you.<br> In Number 1, the show I star in! One piece, <br> In Number 2, the gruesome Attack on Titan, <br> And in Number 3! the peaceful Jobless Reincarnation`    ;
+
+    
+    expect(botReply1).toEqual(expectedReply1);
   });
 });
 
