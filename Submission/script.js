@@ -13,9 +13,6 @@ const yesReplys = ["yes", "y", "yah", "yeah"];
 const noReplys = ["no", "n", "nah"];
 
 
-
-
-
 const getBotReply = (msg) => {
   const userInput = msg.toLowerCase();
   if (userInput === "reset") {
