@@ -34,6 +34,9 @@ body {
 .chat-input {
   width: 40vw;
   font-size: 1.5em;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1.5px solid black;
 }
 
 .btn-chat-send {
@@ -41,24 +44,31 @@ body {
   font-size: 1.5em;
   overflow: hidden;
   text-overflow: ellipsis;
+  background-color: #218aff;
+  color: white;
+  border: 1.5px solid black;
+  border-radius: 1rem;
+  margin-left: 0.8rem;
 }
 
 .chatbox-container {
   margin-top: 2vh;
   display: flex;
   justify-content: center;
+  border-radius: 1rem;
 }
 
 .chatbox {
   width: 50vw;
   max-height: 30vh;
-  border: 1px solid gray;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   font-size: 1.2em;
   overflow: hidden;
   overflow-y: scroll;
+  border-radius: 0.8rem;
+  border: black solid 1.45px;
+  padding: 1.55rem;
 }
 
 .chat-item {
@@ -70,6 +80,7 @@ body {
 }
 
 .chat-item-bot {
-  font-family: "Roboto Mono", monospace;
   text-align: right;
+  font-size: 1.4rem;
+  font-family: "Libre Franklin", sans-serif;
 }
