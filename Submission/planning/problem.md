@@ -17,35 +17,35 @@ Output: the next question, or answer to the question
 Path for anime Death note
 
 Path to Death Note
-Start: Welcome to the Chatbot. What is your name??
+Start: Hi I'm Luffy! What is your name?
 Input: Quin
 Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
 Input: Yes
-Output: Mmm yes, clearly you are very cultured Quin. Have you seen Death note?
+Output: Mmm yes, clearly you are very cultured quin Have you seen Death Note?
 Input: No 
-Output: I would highly recommend Death note. An extremely worth while watch, the protagonist light yagami finds a mysterious note pad called the Death note while at school one day.
+Output: I would highly recommend Death Note. An extremely worthwhile watch, the protagonist Light Yagami finds an ominous notepad at school one day and discovers his new purpose.
 
 Path to That time I was reincarnated as a slime
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
 Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
 Input: Yes
-Output: Mmm yes, clearly you are very cultured Quin. Have you seen Death note?
+Output: Mmm yes, clearly you are very cultured quin Have you seen Death Note?
 Input: Yes
-Output: Fantastic, I enjoyed Death note, did you enjoy death-note as well?
+Output: Fantastic, I enjoyed Death Note! Did you enjoy Death Note as well?
 Input: No 
-Output: Poor Light Yagami, seeing as you didn't enjoy death note so much, I'm going to suggest something that sets a completely different pace, that time I was reincarnated as a slime
+Output: Seeing as you didn't enjoy Death Note so much, I'm going to suggest something that sets a completely different pace. That time I was reincarnated as a slime.
 
 Path to Code Geass
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
 Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
 Input: Yes
-Output: Mmm yes, clearly you are very cultured Quin. Have you seen Death note?
+Output: Mmm yes, clearly you are very cultured quin Have you seen Death Note?
 Input: Yes
-Output: Fantastic, I enjoyed Death note, did you enjoy death-note as well?
+Output: Fantastic, I enjoyed Death Note! Did you enjoy Death Note as well?
 Input: Yes 
-Output: Excellent, I suggest you watch Code Geass. The main character Lelouch vi Britannia battles against the odds as he fights to regain connote of his home country.
+Output: Excellent, I suggest you watch Code Geass. The main character Lelouch vi Britannia battles against the odds as he fights to regain control of his home country.
 
 Path to Attack on Titan 
 Start: Welcome to the Chatbot. What is your name?
@@ -54,7 +54,8 @@ Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for 
 Input: No 
 Output: How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?
 Input: No 
-Output: No? fantastic! I recommend the masterpiece Attack on Titan, main character Eren Yeager has lived inside the walls his entire life, one fateful day everything changed.
+Output: Fantastic! I recommend Attack on Titan, main character Eren Yeager has lived inside the walls his entire life, one fateful day everything changed.
+
 
 Path to One Piece 
 Start: Welcome to the Chatbot. What is your name?
@@ -65,7 +66,7 @@ Output: How Exciting! You are at the beginning of your journey and there are so 
 Input: Yes 
 Output: That's just fine, there are plenty of quality shows without a mature rating. Would you still watch a show if it was 1000 plus episodes?
 Input: Yes
-Output: Quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)
+Output: quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly it's still realising every Sunday, it shouldn't take you long to catch up.
 
 Path to Jobless Reincarnation 
 Start: Welcome to the Chatbot. What is your name?
@@ -76,4 +77,4 @@ Output: How Exciting! You are at the beginning of your journey and there are so 
 Input: Yes 
 Output: That's just fine, there are plenty of quality shows without a mature rating. Would you still watch a show if it was 1000 plus episodes?
 Input: No
-Output: Okay, a shorter anime it is, despite only being 22 episodes Jobless reincarnation is one of my all-time favourites an absolute gem
+Output: Okay, a shorter anime it is, despite only being 22 episodes Jobless reincarnation is one of my all-time favourites and an absolute gem.
