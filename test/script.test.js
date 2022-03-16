@@ -103,7 +103,6 @@ describe("getBotReply", () => {
     const expectedReply1 =
       "Hi there quin, so you need help deciding what anime you should watch. Lucky for you that's my speciality! Have you watched any anime before?";
 
-
     const botReply2 = getBotReply("no");
     const expectedReply2 =
       "How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?";

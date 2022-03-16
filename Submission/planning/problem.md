@@ -19,7 +19,7 @@ Path for anime Death note
 Path to Death Note
 Start: Hi I'm Luffy! What is your name?
 Input: Quin
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Output: Hi there quin so you need help deciding what anime you should watch. Lucky for you that's my speciality! Have you watched any anime before?
 Input: Yes
 Output: Mmm yes, clearly you are very cultured quin Have you seen Death Note?
 Input: No 
@@ -28,7 +28,7 @@ Output: I would highly recommend Death Note. An extremely worthwhile watch, the 
 Path to That time I was reincarnated as a slime
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Output:Hi there quin so you need help deciding what anime you should watch. Lucky for you that's my speciality! Have you watched any anime before?
 Input: Yes
 Output: Mmm yes, clearly you are very cultured quin Have you seen Death Note?
 Input: Yes
@@ -39,7 +39,7 @@ Output: Seeing as you didn't enjoy Death Note so much, I'm going to suggest some
 Path to Code Geass
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Output: Hi there quin so you need help deciding what anime you should watch. Lucky for you that's my speciality! Have you watched any anime before?
 Input: Yes
 Output: Mmm yes, clearly you are very cultured quin Have you seen Death Note?
 Input: Yes
@@ -50,7 +50,7 @@ Output: Excellent, I suggest you watch Code Geass. The main character Lelouch vi
 Path to Attack on Titan 
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Output: Hi there quin so you need help deciding what anime you should watch. Lucky for you that's my speciality! Have you watched any anime before?
 Input: No 
 Output: How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?
 Input: No 
@@ -60,7 +60,7 @@ Output: Fantastic! I recommend Attack on Titan, main character Eren Yeager has l
 Path to One Piece 
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Output: Hi there quin so you need help deciding what anime you should watch. Lucky for you that's my speciality! Have you watched any anime before?
 Input: No 
 Output: How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?
 Input: Yes 
@@ -71,7 +71,7 @@ Output: quin you are extremely brave, one-piece stands as the longest anime at 1
 Path to Jobless Reincarnation 
 Start: Welcome to the Chatbot. What is your name?
 Input: Quin 
-Output: Hi there Quin, so you need help deciding what anime to watch. Lucky for you that's my speciality! Now have you watched any anime before?
+Output: Hi there quin so you need help deciding what anime you should watch. Lucky for you that's my speciality! Have you watched any anime before?
 Input: No 
 Output: How Exciting! You are at the beginning of your journey and there are so many options! Does an R16 rating concern you?
 Input: Yes 
