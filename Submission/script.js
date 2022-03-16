@@ -86,15 +86,3 @@ const getBotReply = (msg) => {
   return `Please enter yes or no, <br> Type 'help' for more options`;
 };
 export { getBotReply };
-
-
-
-
-
-//code so that if reset favs or help is the first input name doesnt return as undefined 
-
-/*if (userName === undefined) {
-  if (userInput === ("reset" || "favs" || "help")) {
-    dadadadadad;
-  }
-}
