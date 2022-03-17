@@ -25,7 +25,7 @@ This project is the combination and application of things you have learnt about 
 
 Use conditionals, comparisons, and built-in methods such as string and array methods, to apply logic to a program. Write functions and leverage scope to give your bot a memory.
 
----
+-
 
 ## Getting Started
 
