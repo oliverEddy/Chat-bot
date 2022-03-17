@@ -34,7 +34,7 @@ const getBotReply = (msg) => {
     if (yesReplys.includes(userInput)) {
       level = 2;
       path = 1;
-      return `Mmm yes, clearly you are very cultured ${userName} Have you seen Death Note?`;
+      return `Mmm yes, clearly you are very cultured ${userName}. Have you seen Death Note?`;
     }
     if (noReplys.includes(userInput)) {
       level = 2;
@@ -76,7 +76,7 @@ const getBotReply = (msg) => {
   }
   if (level === 4) {
     if (yesReplys.includes(userInput)) {
-      return `${userName} you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly it's still realising every Sunday, it shouldn't take you long to catch up.`;
+      return `${userName} you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)`;
     }
     if (noReplys.includes(userInput)) {
       return "Okay, a shorter anime it is, despite only being 22 episodes Jobless reincarnation is one of my all-time favourites and an absolute gem.";

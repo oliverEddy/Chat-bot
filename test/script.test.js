@@ -27,7 +27,7 @@ describe("getBotReply", () => {
 
     const botReply2 = getBotReply("yes");
     const expectedReply2 =
-      "Mmm yes, clearly you are very cultured quin Have you seen Death Note?";
+      "Mmm yes, clearly you are very cultured quin. Have you seen Death Note?";
 
     const botReply3 = getBotReply("no");
     const expectedReply3 =
@@ -44,7 +44,7 @@ describe("getBotReply", () => {
 
     const botReply2 = getBotReply("yes");
     const expectedReply2 =
-      "Mmm yes, clearly you are very cultured quin Have you seen Death Note?";
+      "Mmm yes, clearly you are very cultured quin. Have you seen Death Note?";
 
     const botReply3 = getBotReply("yes");
     const expectedReply3 =
@@ -83,7 +83,7 @@ describe("getBotReply", () => {
 
     const botReply2 = getBotReply("yes");
     const expectedReply2 =
-      "Mmm yes, clearly you are very cultured quin Have you seen Death Note?";
+      "Mmm yes, clearly you are very cultured quin. Have you seen Death Note?";
 
     const botReply3 = getBotReply("yes");
     const expectedReply3 =
@@ -113,7 +113,7 @@ describe("getBotReply", () => {
 
     const botReply4 = getBotReply("yes");
     const expectedReply4 =
-      "quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly it's still realising every Sunday, it shouldn't take you long to catch up.";
+      "quin you are extremely brave, one-piece stands as the longest anime at 1012 episodes and shockingly its still realising every Sunday, it shouldn't take you long to catch up :)";
 
     expect(botReply1).toEqual(expectedReply1);
     expect(botReply2).toEqual(expectedReply2);
