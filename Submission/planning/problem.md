@@ -14,7 +14,7 @@ Processes: determine the correct answer based on the usersInput, and previous in
 Output: the next question, or answer to the question
 
 ## Test scenarios
-Path for anime Death note
+Path for anime Death note.dad
 
 Path to Death Note
 Start: Hi I'm Luffy! What is your name?
